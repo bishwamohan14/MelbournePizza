@@ -8,6 +8,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+// order details
+
 @Entity
 @Data
 @Table(name = "order_list")

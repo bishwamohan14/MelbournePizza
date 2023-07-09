@@ -5,6 +5,8 @@ import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+// item details
+
 @Entity
 @Table(name = "menu_list")
 @NoArgsConstructor

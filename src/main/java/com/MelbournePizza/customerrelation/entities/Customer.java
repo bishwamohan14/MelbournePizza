@@ -14,6 +14,7 @@ import java.util.List;
 @Setter
 public class Customer {
 
+    // customer details
     @Id
     @Column(nullable = false,unique = true)
     @GeneratedValue(strategy = GenerationType.AUTO)
