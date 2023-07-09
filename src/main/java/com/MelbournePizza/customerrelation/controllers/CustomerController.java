@@ -44,12 +44,12 @@ public class CustomerController {
 
     //get user
     @GetMapping("/")
-    public ResponseEntity<List<CustomerDto>> getAllCustomers(){
+    public ResponseEntity<List<CustomerDto>> getAllCustomerDetails(){
         return ResponseEntity.ok(this.customerService.getAllCustomers());
     }
 
     @GetMapping("/{customerId}")
-    public ResponseEntity<CustomerDto> getAllCustomers(@PathVariable Integer customerId){
+    public ResponseEntity<CustomerDto> getCustomerById(@PathVariable Integer customerId){
         return ResponseEntity.ok(this.customerService.getCustomerById(customerId));
     }
 
